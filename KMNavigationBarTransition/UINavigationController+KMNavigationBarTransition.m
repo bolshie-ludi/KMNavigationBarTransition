@@ -81,6 +81,7 @@
         self.navigationBar.barTintColor = appearingNavigationBar.barTintColor;
         [self.navigationBar setBackgroundImage:[appearingNavigationBar backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
         self.navigationBar.shadowImage = appearingNavigationBar.shadowImage;
+        [self.navigationBar setTitleTextAttributes:appearingNavigationBar.titleTextAttributes];
     }
     if (animated) {
         disappearingViewController.km_prefersNavigationBarBackgroundViewHidden = YES;
@@ -99,6 +100,7 @@
         self.navigationBar.barTintColor = appearingNavigationBar.barTintColor;
         [self.navigationBar setBackgroundImage:[appearingNavigationBar backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
         self.navigationBar.shadowImage = appearingNavigationBar.shadowImage;
+        [self.navigationBar setTitleTextAttributes:appearingNavigationBar.titleTextAttributes];
     }
     if (animated) {
         disappearingViewController.km_prefersNavigationBarBackgroundViewHidden = YES;
@@ -118,6 +120,7 @@
         self.navigationBar.barTintColor = appearingNavigationBar.barTintColor;
         [self.navigationBar setBackgroundImage:[appearingNavigationBar backgroundImageForBarMetrics:UIBarMetricsDefault] forBarMetrics:UIBarMetricsDefault];
         self.navigationBar.shadowImage = appearingNavigationBar.shadowImage;
+        [self.navigationBar setTitleTextAttributes:appearingNavigationBar.titleTextAttributes];
     }
     if (animated) {
         disappearingViewController.km_prefersNavigationBarBackgroundViewHidden = YES;
